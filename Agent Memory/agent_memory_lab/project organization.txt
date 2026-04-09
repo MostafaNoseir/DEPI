@@ -1,0 +1,7 @@
+agent_memory_lab/
+├── main.py              # Entry point
+├── core/
+│   ├── agent.py         # The "Brain" (Llama 3.1)
+│   └── memory_store.py  # The "Vector DB" (ChromaDB)
+└── utils/
+    └── prompts.py       # The "Logic" for choosing what to save
